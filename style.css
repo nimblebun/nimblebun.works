@@ -1,0 +1,65 @@
+@import 'https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap';
+
+@keyframes colorchange {
+  0%, 100% {
+    color: #979797;
+  }
+
+  50% {
+    color: #fff;
+  }
+}
+
+@-webkit-keyframes colorchange {
+  0%, 100% {
+    color: #979797;
+  }
+
+  50% {
+    color: #fff;
+  }
+}
+
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: 'Cabin Sketch', cursive;
+  font-weight: 700;
+  user-select: none;
+  -webkit-user-select: none;
+  font-size: 16px;
+}
+
+.box {
+  padding: 2em;
+  text-align: center;
+  padding: 2em;
+}
+
+.box img {
+  max-width: 100%;
+}
+
+.box h1 {
+  margin: 0;
+  padding: 0;
+  margin-top: 0.5em;
+  font-size: 7em;
+  padding-left: 15%;
+  animation: colorchange 1s infinite step-end;
+  -webkit-animation: colorchange 1s infinite step-end;
+  text-align: center;
+}
+
+@media only screen and ( max-width: 1220px ) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and ( max-width: 700px ) {
+  .box h1 {
+    padding-left: 0;
+  }
+}
