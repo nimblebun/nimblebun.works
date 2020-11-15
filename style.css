@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Pangolin&display=swap';
 
 @keyframes colorchange {
   0%, 100% {
@@ -24,42 +25,95 @@ body {
   margin: 0;
   background: #000;
   color: #fff;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Pangolin', cursive;
   font-weight: 700;
   user-select: none;
   -webkit-user-select: none;
-  font-size: 16px;
+  font-size: 26px;
 }
 
-.box {
-  padding: 2em;
-  text-align: center;
-  padding: 2em;
+a {
+  color: #979797;
 }
 
-.box img {
-  max-width: 100%;
+a:hover {
+  color: #fff;
 }
 
-.box h1 {
+.wrapper {
+  width: 980px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 3em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header img {
+  width: 300px;
+}
+
+header h1 {
   margin: 0;
   padding: 0;
-  margin-top: 0.5em;
-  font-size: 7em;
-  padding-left: 15%;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 3em;
   animation: colorchange 1s infinite step-end;
   -webkit-animation: colorchange 1s infinite step-end;
   text-align: center;
 }
 
-@media only screen and ( max-width: 1220px ) {
-  body {
-    font-size: 14px;
-  }
+.description {
+  text-align: center;
+  color: #bebebe;
 }
 
-@media only screen and ( max-width: 700px ) {
-  .box h1 {
-    padding-left: 0;
+.links {
+  padding: 3em 0;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.links a {
+  margin-right: 3em;
+}
+
+.links a:last-child {
+  margin-right: 0;
+}
+
+@media only screen and ( max-width: 980px ) {
+  .wrapper {
+    width: auto;
+    padding: 1em;
+  }
+
+  header {
+    display: block;
+    text-align: center;
+    padding: 2em 0;
+  }
+
+  header img {
+    margin-bottom: 1em;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  .links {
+    padding: 2em 0;
+  }
+
+  .links a {
+    margin-right: 1.5em;
+  }
+
+  .links a:last-child {
+    margin-right: 0;
   }
 }
