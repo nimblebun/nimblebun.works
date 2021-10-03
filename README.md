@@ -1,8 +1,3 @@
-# nimblebun.works
+# nimblebun.works website
 
-This repo contains the source code of the nimblebun.works website. Currently,
-it's just a simple HTML + CSS webpage.
-
-## License
-
-MIT.
+This project is currently a work in progress.

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-nbw-primary;
+  @apply text-nbw-primary-invert;
+  @apply font-sans;
+  @apply select-none;
+}
+
+a {
+  @apply text-nbw-primary-invert-faint;
+  @apply hover:text-nbw-primary-invert;
+}
