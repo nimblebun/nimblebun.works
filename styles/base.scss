@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,6 +10,20 @@ body {
   @apply text-nbw-primary-invert;
   @apply font-sans;
   @apply select-none;
+}
+
+.ua-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 10px;
+  background: linear-gradient(
+    to bottom,
+    #0158b5 50%,
+    #f6ce00 50%,
+    #f6ce00 100%
+  );
 }
 
 a {

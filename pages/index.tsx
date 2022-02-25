@@ -28,6 +28,13 @@ const HomePage = () => {
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
       </Head>
+
+      <a
+        className="ua-banner"
+        href="https://twitter.com/Ukraine/status/1497294422354055171"
+        target="_blank"
+        rel="noopener noreferrer"
+      />
     </HomePageLayout>
   );
 };
