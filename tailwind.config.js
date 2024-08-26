@@ -1,44 +1,53 @@
 module.exports = {
-  mode: 'jit',
+  mode: "jit",
 
   purge: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './layouts/**/*.{js,ts,jsx,tsx}',
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./layouts/**/*.{js,ts,jsx,tsx}",
     // './components/**/*.{js,ts,jsx,tsx}',
   ],
 
   theme: {
     fontFamily: {
-      sans: [ 'Montserrat', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', 'sans-serif' ],
-      display: [ 'Pangolin', 'cursive' ],
+      sans: [
+        "Montserrat",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        '"Segoe UI"',
+        "Roboto",
+        '"Helvetica Neue"',
+        "Arial",
+        "sans-serif",
+      ],
+      display: ["Pangolin", "cursive"],
     },
 
     colors: {
-      transparent: 'transparent',
+      transparent: "transparent",
 
-      'nbw-primary': {
-        DEFAULT: '#000'
+      "nbw-primary": {
+        DEFAULT: "#0b0a0a",
       },
 
-      'nbw-primary-invert': {
-        DEFAULT: '#fff',
-        faint: '#979797',
+      "nbw-primary-invert": {
+        DEFAULT: "#fff",
+        faint: "#898989",
       },
 
-      'nbw-gray': {
-        DEFAULT: '#bebebe',
+      "nbw-gray": {
+        DEFAULT: "#898989",
       },
     },
 
     container: {
-      center: true
+      center: true,
     },
 
     listStyleType: {
-      none: 'none',
-      disc: 'disc',
-      decimal: 'decimal',
-      square: 'square',
+      none: "none",
+      disc: "disc",
+      decimal: "decimal",
+      square: "square",
     },
   },
 };

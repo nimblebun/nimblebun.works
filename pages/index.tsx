@@ -1,15 +1,15 @@
-import Head from 'next/head';
+import Head from "next/head";
 
-import HomePageLayout from '@/layouts/HomePageLayout';
+import HomePageLayout from "@/layouts/HomePageLayout";
 
 const HomePage = () => {
-  const title = 'nimble bun works';
-  const description = 'indie game developer group with members all around the world';
+  const title = "nimble bun works";
+  const description = "indie game developer group";
   return (
     <HomePageLayout>
-      we are a passionate game developer group with a love for fun, story-rich,
-      and retro experiences
-
+      we are a passionate game developer group{" "}
+      <br className="hidden md:inline-block" />
+      with a love for fun, story-rich experiences
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,13 +28,6 @@ const HomePage = () => {
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
       </Head>
-
-      <a
-        className="ua-banner"
-        href="https://twitter.com/Ukraine/status/1497294422354055171"
-        target="_blank"
-        rel="noopener noreferrer"
-      />
     </HomePageLayout>
   );
 };
