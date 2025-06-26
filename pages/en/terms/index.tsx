@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 import TermsLayout from "@/layouts/TermsLayout";
-import Terms from "@/content/Terms.mdx"
+import Terms from "@/content/Terms.mdx";
 
 const TermsPage = () => {
   const title = "terms of service - nimble bun works";

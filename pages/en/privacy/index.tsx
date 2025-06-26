@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 import TermsLayout from "@/layouts/TermsLayout";
-import Privacy from "@/content/Privacy.mdx"
+import Privacy from "@/content/Privacy.mdx";
 
 const PrivacyPage = () => {
   const title = "privacy policy - nimble bun works";
